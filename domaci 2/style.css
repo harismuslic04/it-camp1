@@ -5,11 +5,15 @@
   background-color: chocolate;
   border-radius: 10px;
 }
-.main img {
-  width: 400px;
+.slika {
   height: 200px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  margin-bottom: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.slika {
+  background-image: url(/liv\ 5-0.jpg);
+  background-size: cover;
 }
 .main h1 {
   text-align: center;
@@ -23,14 +27,15 @@
   margin: 25px;
   font-size: 13px;
   text-indent: 30px;
+  text-align: justify;
 }
 .main h3 {
-  text-indent: 25px;
+  text-align: center;
 }
 
 p:hover {
   background-color: yellow;
 }
-.images img {
-  background-image: url(/liv\ 5-0.jpg);
+.slika:hover {
+  background-image: url(/liv\ champp.jpg);
 }
