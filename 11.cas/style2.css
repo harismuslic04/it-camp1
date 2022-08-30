@@ -1,6 +1,10 @@
 * {
   margin: 0;
 }
+.main {
+  width: 200px;
+  height: 200px;
+}
 .main:nth-of-type(1) {
   width: 200px;
   height: 200px;
@@ -24,3 +28,10 @@
 /* p {
   line-height: 30px;
 } za razmak izmedju redova */
+.second {
+  margin: auto;
+  width: 700px;
+  height: 450px;
+  background-image: url(/pozadina.jpg);
+  /* background-repeat: no-repeat; ako je slika mala,da se ne ponavlja kako bi zauzela celo mesto */
+}
