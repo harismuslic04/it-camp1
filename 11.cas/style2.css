@@ -34,4 +34,6 @@
   height: 450px;
   background-image: url(/pozadina.jpg);
   /* background-repeat: no-repeat; ako je slika mala,da se ne ponavlja kako bi zauzela celo mesto */
+  /* background-size: 100%; jedna jedinica se odnosi na sirinu,a ako su dve druga je na visinu[p
+   */
 }
