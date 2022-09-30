@@ -63,6 +63,7 @@
   margin-bottom: -30px;
   font-weight: 600;
   font-size: 16px;
+  transition: all 0.3s ease-in;
 }
 .profile-box h3 {
   font-size: 22px;
@@ -74,4 +75,10 @@
   margin: 30px 5px;
   cursor: pointer;
   /* cursor pointer znaci da kada mis dodje do toga onda se pojavi kao select na misu */
+}
+.profile-box button:hover {
+  background: transparent;
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  background-color: red;
 }
