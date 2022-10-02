@@ -6,10 +6,13 @@ body {
   background: white;
 }
 header {
-  background: #37517e;
   width: 100%;
   height: 100px;
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: rgb(55, 81, 126);
 }
 header ul {
   display: flex;
@@ -96,7 +99,7 @@ header button {
 .slike {
   width: 100%;
   height: 100px;
-  background-color: rgb(243, 224, 224);
+  background-color: #f3f5fa;
   display: flex;
   gap: 130px;
 }
@@ -121,4 +124,201 @@ header button {
 }
 .slike img {
   margin-top: 30px;
+}
+.second {
+  height: 420px;
+  width: 100%;
+  background-color: white;
+}
+.second h1 {
+  color: #37517e;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+}
+.linije {
+  color: black;
+  width: 140px;
+  height: 2px;
+  background-color: rgb(207, 207, 207);
+  margin: auto;
+  position: relative;
+  top: 13px;
+}
+.linija2 {
+  width: 50px;
+  height: 3.3px;
+  background-color: #0d6efd;
+  margin: auto;
+  position: relative;
+  top: 10px;
+}
+.second p:nth-of-type(1) {
+  width: 590px;
+  margin-top: 70px;
+  line-height: 25px;
+  font-size: 20px;
+  margin-left: 130px;
+  color: rgb(133, 133, 133);
+}
+.second i:nth-of-type(1) {
+  color: blue;
+  position: relative;
+  top: -98px;
+  left: 130px;
+  font-size: 20px;
+}
+.second ul {
+  list-style: none;
+  line-height: 35px;
+  margin-top: 20px;
+  margin-left: 130px;
+  font-size: 20px;
+  color: rgb(133, 133, 133);
+}
+.second i:nth-last-of-type(2) {
+  color: blue;
+  position: relative;
+  top: -60px;
+  left: 105px;
+  font-size: 20px;
+}
+#treci {
+  color: blue;
+  font-size: 20px;
+  position: relative;
+  top: -25px;
+  left: 80px;
+}
+.second p:nth-of-type(2) {
+  color: rgb(133, 133, 133);
+  width: 40%;
+  font-size: 20px;
+  position: absolute;
+  top: 850px;
+  left: 770px;
+}
+.second button {
+  position: absolute;
+  top: 970px;
+  left: 770px;
+  width: 145px;
+  height: 50px;
+  border-radius: 5px;
+  color: #47b2e4;
+  border: 2px solid #47b2e4;
+  font-size: 15px;
+  background-color: white;
+}
+.treci {
+  width: 100%;
+  height: 750px;
+  background-color: #f3f5fa;
+}
+.treci h1 {
+  color: #37517e;
+  width: 40%;
+  font-size: 38px;
+  margin-left: 120px;
+  position: relative;
+  top: 120px;
+}
+.treci h1 strong {
+  color: #20375e;
+}
+.treci p {
+  color: #848484;
+  font-size: 17px;
+  width: 43.3%;
+  letter-spacing: 0.4px;
+  position: relative;
+  left: 120px;
+  top: 150px;
+  justify-content: start;
+  line-height: 20px;
+}
+.prvibox h3 {
+  color: rgb(71, 71, 71);
+  margin-left: 60px;
+  position: relative;
+  top: 22px;
+}
+.prvibox {
+  background-color: white;
+  width: 39%;
+  margin-top: 180px;
+  margin-left: 120px;
+  height: 70px;
+  border-radius: 5px;
+}
+.prvibox h2 {
+  color: #47b2e4;
+  position: relative;
+  left: 19px;
+  top: -4px;
+}
+.prvibox i {
+  color: rgb(71, 71, 71);
+  left: 530px;
+  position: relative;
+  top: -25px;
+}
+.drugibox {
+  background-color: white;
+  width: 39%;
+  margin-top: 20px;
+  margin-left: 120px;
+  height: 70px;
+  border-radius: 5px;
+}
+.drugibox h2 {
+  color: #47b2e4;
+  position: relative;
+  left: 19px;
+  top: -4px;
+}
+.drugibox h3 {
+  color: rgb(71, 71, 71);
+  margin-left: 60px;
+  position: relative;
+  top: 22px;
+}
+.drugibox i {
+  color: rgb(71, 71, 71);
+  left: 530px;
+  position: relative;
+  top: -25px;
+}
+.trecibox {
+  background-color: white;
+  width: 39%;
+  margin-top: 20px;
+  margin-left: 120px;
+  height: 70px;
+  border-radius: 5px;
+}
+.trecibox h2 {
+  color: #47b2e4;
+  position: relative;
+  left: 19px;
+  top: -4px;
+}
+.trecibox h3 {
+  color: rgb(71, 71, 71);
+  margin-left: 60px;
+  position: relative;
+  top: 22px;
+}
+.trecibox i {
+  color: rgb(71, 71, 71);
+  left: 530px;
+  position: relative;
+  top: -25px;
+}
+.trecibox img {
+  width: 620px;
+  height: 500px;
+  position: absolute;
+  top: 1250px;
+  left: 850px;
 }
