@@ -12,7 +12,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: rgb(55, 81, 126);
+  background: rgba(55, 81, 126, 0.9);
 }
 header ul {
   display: flex;
