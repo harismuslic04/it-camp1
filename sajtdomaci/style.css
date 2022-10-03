@@ -757,38 +757,3 @@ header button:hover {
   border: 1px solid #47b2e4;
   transition: 0.5s;
 }
-.slikebox {
-  width: 85%;
-  background-color: red;
-  height: 1500px;
-  margin: auto;
-  margin-top: 20px;
-  line-height: 100px;
-  gap: 100px;
-}
-.boxslika1 img {
-  width: 30%;
-  height: 35%;
-}
-.boxslika2 img {
-  width: 30%;
-  height: 40%;
-}
-.boxslika3 img {
-  width: 30%;
-  position: relative;
-  top: -1044px;
-  left: 435px;
-}
-.boxslika4 img {
-  width: 30%;
-  position: relative;
-  top: -1044px;
-  left: 435px;
-}
-.boxslika5 img {
-  width: 30%;
-  position: relative;
-  top: -1044px;
-  left: 435px;
-}
