@@ -147,9 +147,14 @@ header button:hover {
   background-color: #f3f5fa;
   display: flex;
   gap: 130px;
+  filter: grayscale(100%);
 }
 .slike :nth-last-of-type(1) {
   height: 30px;
+}
+.slike:hover img {
+  filter: grayscale(0%);
+  filter: none;
 }
 .slike :nth-last-of-type(2) {
   height: 30px;
@@ -762,66 +767,165 @@ header button:hover {
   height: 1250px;
   background-color: white;
   margin: auto;
+  display: flex;
   position: relative;
-  gap: 100px;
-  line-height: 100px;
+}
+.osmi .boxslika1 {
+  overflow: hidden;
+  width: 31%;
+  height: 420px;
+  position: relative;
 }
 .boxslika1 img {
   position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.osmi .boxslika1:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.osmi .boxslika2 {
+  overflow: hidden;
   width: 31%;
   height: 420px;
+  position: absolute;
+  left: 0px;
+  bottom: 375px;
 }
 .boxslika2 img {
   position: absolute;
-  width: 31%;
-  height: 520px;
-  top: 450px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
 }
-.boxslika3 img {
-  position: absolute;
+.osmi .boxslika2:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.osmi .boxslika3 {
+  overflow: hidden;
   width: 31%;
+  height: 270px;
+  position: absolute;
   top: 0px;
   left: 34.6%;
 }
-.boxslika4 img {
+.boxslika3 img {
   position: absolute;
+  width: 100%;
+
+  height: 90%;
+}
+.osmi .boxslika3:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.osmi .boxslika4 {
   width: 31%;
   top: 280px;
   left: 34.6%;
   height: 500px;
+  position: absolute;
+  overflow: hidden;
+}
+.boxslika4 img {
+  position: absolute;
+  width: 100%;
+
+  height: 100%;
+}
+.osmi .boxslika4:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.osmi .boxslika5 {
+  width: 31%;
+  position: absolute;
+  height: 300px;
+  top: 815px;
+  left: 34.6%;
+  overflow: hidden;
 }
 .boxslika5 img {
   position: absolute;
+  width: 100%;
+
+  height: 100%;
+}
+.osmi .boxslika5:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.osmi .boxslika6 {
+  position: absolute;
   width: 31%;
-  top: 810px;
-  left: 34.6%;
+  right: 0px;
+  top: 9.5px;
+  overflow: hidden;
+
+  height: 200px;
 }
 .boxslika6 img {
   position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.osmi .boxslika6:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.osmi .boxslika7 {
+  position: absolute;
   width: 31%;
-  top: 1090px;
   right: 0px;
-  top: 0px;
+  top: 250px;
+  overflow: hidden;
+  height: 235px;
 }
 .boxslika7 img {
   position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.osmi .boxslika7:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.osmi .boxslika8 {
+  position: absolute;
   width: 31%;
-
   right: 0px;
-  top: 240px;
+  top: 520px;
+  overflow: hidden;
+  height: 235px;
 }
 .boxslika8 img {
   position: absolute;
-  width: 31%;
-
-  right: 0px;
-  top: 520px;
+  width: 100%;
+  height: 100%;
 }
-.boxslika9 img {
+.boxslika8:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.boxslika9 {
   position: absolute;
   width: 31%;
   right: 0px;
   top: 790px;
+  height: 235px;
+  overflow: hidden;
+}
+.boxslika9 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.boxslika9:hover img {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 .deveti {
   width: 100%;
@@ -1606,7 +1710,7 @@ header button:hover {
   width: 100%;
   height: 1000px;
   position: relative;
-  background-color: #eff2f8;
+  background-color: white;
 }
 .dvanaesti h1 {
   color: #37517e;
@@ -1821,4 +1925,329 @@ header button:hover {
   background-color: #3e8fb4;
   transition: 1s;
   cursor: pointer;
+}
+.osmi {
+  position: relative;
+  display: flex;
+}
+.trinaesti {
+  width: 100%;
+  height: 270px;
+  background-color: #f3f5fa;
+  position: relative;
+}
+.trinaesti h1 {
+  color: #37517e;
+  text-align: center;
+  position: relative;
+  top: 55px;
+}
+.trinaesti p {
+  text-align: center;
+  position: relative;
+  top: 75px;
+  color: #444444;
+  font-size: 17px;
+}
+#subscribe {
+  width: 420px;
+  position: relative;
+  left: 500px;
+  top: 110px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.trinaesti button {
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  left: 460px;
+  position: relative;
+  top: 110px;
+  color: white;
+  background-color: #47b2e4;
+  border-color: #47b2e4;
+  border: 1px solid;
+  font-size: 17px;
+}
+.trinaesti button:hover {
+  background-color: #2993c4;
+  transition: 1s;
+  cursor: pointer;
+}
+.cetrnaesti ul:nth-of-type(1) {
+  list-style: none;
+  color: #5e5e5e;
+  position: absolute;
+  left: 80px;
+  top: 100px;
+  line-height: 26px;
+}
+.cetrnaesti ul:nth-of-type(2) {
+  list-style: none;
+  position: absolute;
+  color: #272424;
+  left: 80px;
+  top: 210px;
+}
+.cetrnaesti ul:nth-of-type(3) {
+  list-style: none;
+  color: #5e5e5e;
+  position: absolute;
+  left: 130px;
+  top: 210px;
+}
+.cetrnaesti {
+  height: 350px;
+  position: relative;
+}
+.cetrnaesti h1 {
+  color: #37517e;
+  position: absolute;
+  top: 50px;
+  left: 120px;
+}
+.cetrnaesti ul:nth-of-type(4) {
+  list-style: none;
+  display: flex;
+  gap: 240px;
+  color: #37517e;
+  position: absolute;
+  top: 60px;
+  left: 420px;
+  font-size: 20px;
+}
+.cetrnaesti ul:nth-of-type(5) li p {
+  line-height: 0px;
+  color: #5e5e5e;
+  position: relative;
+  top: 115px;
+  left: 435px;
+  width: 150px;
+  background-color: white;
+  height: 50px;
+}
+.cetrnaesti ul:nth-of-type(5) {
+  list-style: none;
+}
+.cetrnaesti ul:nth-of-type(6) {
+  list-style: none;
+  line-height: 50px;
+  color: #47b2e4;
+  position: absolute;
+  top: 90px;
+  left: 420px;
+}
+.cetrnaesti ul:nth-of-type(7) {
+  list-style: none;
+  line-height: 50px;
+  color: #47b2e4;
+  position: absolute;
+  top: 90px;
+  left: 775px;
+}
+.cetrnaesti ul:nth-of-type(8) li p {
+  color: #5e5e5e;
+  position: relative;
+
+  left: 435px;
+  width: 150px;
+  background-color: white;
+  height: 50px;
+  top: -146px;
+  left: 790px;
+}
+.cetrnaesti ul:nth-of-type(8) li p:hover {
+  color: #2993c4;
+  cursor: pointer;
+}
+.cetrnaesti ul:nth-of-type(8) {
+  list-style: none;
+}
+.cetrnaesti p {
+  width: 250px;
+  position: absolute;
+  top: 98px;
+  right: 90px;
+  line-height: 24px;
+}
+.cetrnaesti ul:nth-of-type(9) {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 25px;
+  position: absolute;
+}
+.twiter {
+  width: 40px;
+  height: 40px;
+  font-size: 27px;
+  color: white;
+  background-color: #47b2e4;
+  text-align: center;
+  border-radius: 50%;
+  left: 1155px;
+  top: 180px;
+  position: absolute;
+}
+.twiter i {
+  position: relative;
+  margin: auto;
+  top: 8px;
+}
+.facebook {
+  width: 40px;
+  height: 40px;
+  font-size: 27px;
+  color: white;
+  background-color: #47b2e4;
+  text-align: center;
+  border-radius: 50%;
+  left: 1200px;
+  top: 180px;
+  position: absolute;
+}
+.facebook i {
+  position: relative;
+  margin: auto;
+  top: 8px;
+}
+.instagram {
+  width: 40px;
+  height: 40px;
+  font-size: 23px;
+  color: white;
+  background-color: #47b2e4;
+  text-align: center;
+  border-radius: 50%;
+  left: 1245px;
+  top: 180px;
+  position: absolute;
+}
+.instagram i {
+  position: relative;
+  margin: auto;
+  top: 8px;
+}
+.skype {
+  width: 40px;
+  height: 40px;
+  font-size: 23px;
+  color: white;
+  background-color: #47b2e4;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  left: 1335px;
+  top: 180px;
+}
+.skype i {
+  position: relative;
+  margin: auto;
+  top: 8px;
+}
+.twitch {
+  width: 40px;
+  height: 40px;
+  font-size: 23px;
+  color: white;
+  background-color: #47b2e4;
+  text-align: center;
+  border-radius: 50%;
+  left: 1290px;
+  top: 180px;
+  position: absolute;
+}
+.twitch i {
+  position: relative;
+  margin: auto;
+  top: 8px;
+}
+.twiter:hover {
+  background-color: #37517e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.facebook:hover {
+  background-color: #37517e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.instagram:hover {
+  background-color: #37517e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.skype:hover {
+  background-color: #37517e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.twitch:hover {
+  background-color: #37517e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.cetrnaesti ul:nth-of-type(5) li p:hover {
+  color: #2993c4;
+  cursor: pointer;
+}
+.cetrnaesti ul:nth-of-type(6) li p:hover {
+  color: #2993c4;
+  cursor: pointer;
+}
+.petnaesti {
+  width: 100%;
+  height: 100px;
+  background: #37517e;
+  margin-top: 40px;
+  bottom: -10px;
+  position: relative;
+}
+.petnaesti i {
+  color: white;
+  position: absolute;
+  left: 120px;
+  top: 45px;
+}
+.petnaesti p:nth-of-type(1) {
+  color: white;
+  position: absolute;
+  left: 137px;
+  top: 44px;
+}
+.petnaesti p strong {
+  font-size: 20px;
+}
+.petnaesti p:nth-of-type(2) {
+  color: white;
+  position: absolute;
+  right: 197px;
+  top: 44px;
+}
+.petnaesti p:nth-of-type(3) {
+  color: #2993c4;
+  position: absolute;
+  right: 97px;
+  top: 44px;
+}
+.petnaesti i:nth-of-type(2) {
+  font-size: 20px;
+  position: relative;
+  left: 1420px;
+  width: 50px;
+  height: 50px;
+  background-color: #47b2e4;
+  top: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.petnaesti i:nth-of-type(2):hover {
+  background-color: #94cce6;
+  transition: 0.5s;
 }
