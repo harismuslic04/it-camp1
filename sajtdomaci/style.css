@@ -24,6 +24,9 @@ header ul {
   top: 30px;
   left: 420px;
 }
+header ul li:nth-of-type(1) {
+  color: #47b2e4;
+}
 header ul li:nth-of-type(1):hover {
   color: #47b2e4;
   cursor: pointer;
@@ -108,12 +111,23 @@ header button:hover {
   left: 130px;
   top: 420px;
 }
+.main button:hover {
+  background-color: #2493c7;
+  transition: 0.5s;
+  border-color: #2493c7;
+  cursor: pointer;
+}
 .main i {
   font-size: 40px;
   color: white;
   position: absolute;
   top: 424px;
   left: 330px;
+}
+.main i:hover {
+  color: #2493c7;
+  cursor: pointer;
+  transition: 0.5s;
 }
 .main p {
   font-size: 20px;
@@ -147,15 +161,65 @@ header button:hover {
   background-color: #f3f5fa;
   display: flex;
   gap: 130px;
-  filter: grayscale(100%);
+}
+.slike img:nth-of-type(2):hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.slike img:nth-of-type(2) {
+  filter: grayscale(100);
+}
+.slike img:nth-of-type(3):hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.slike img:nth-of-type(3) {
+  filter: grayscale(100);
+}
+.slike img:nth-of-type(4):hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.slike img:nth-of-type(4) {
+  filter: grayscale(100);
+}
+.slike img:nth-of-type(5):hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.slike img:nth-of-type(5) {
+  filter: grayscale(100);
+}
+.slike img:nth-of-type(6):hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.slike img:nth-of-type(6) {
+  filter: grayscale(100);
+}
+.slike img:nth-of-type(1):hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+  filter: grayscale(0);
+  cursor: pointer;
+}
+.slike img:nth-of-type(1) {
+  filter: grayscale(100);
 }
 .slike :nth-last-of-type(1) {
   height: 30px;
 }
-.slike:hover img {
-  filter: grayscale(0%);
-  filter: none;
-}
+
 .slike :nth-last-of-type(2) {
   height: 30px;
 }
